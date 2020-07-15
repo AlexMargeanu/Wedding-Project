@@ -1,0 +1,169 @@
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  transition: top 0.3s;
+  background-color: white!important;
+  opacity: 0.6;
+  line-height: 3rem;
+}
+.nav-link {
+  color: black!important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-left: 6rem!important;
+  
+}
+#theCouple {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 2.5rem!important;
+  font-weight: 700;
+}
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+border: 1px solid white;
+background-color: pink!important;
+opacity: 0.2;
+}
+.carousel-inner {
+max-height: 55rem;
+}
+.joy {
+  text-align: center;
+  padding-top: 4rem;
+}
+#flicky {
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  padding-top: 2rem;
+}
+figcaption {
+  text-justify: auto;
+}
+.descr {
+  font-family: 'Great Vibes';
+  font-size: 7rem;
+  color: black;
+  text-align: center;
+}
+.descrTxT {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+#where {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+hr {
+  border-top: .5 solid #1ebba3;
+}
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+.yes {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+h3, h1 {
+  font-family: 'Great Vibes';
+  font-size: 4rem;
+}
+.faq {
+  font-family: 'Montserrat', sans-serif;
+}
+.just {
+  text-align: justify;
+  text-justify: inter-word;
+}
+h6 {
+  text-align: center;
+}
+.cntr {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq h2 {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.cntc {
+  padding-bottom: 2rem;
+  font-size: 6rem;
+}
+.link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none!important;
+  color: lightcoral;
+}
+.name {
+  text-align: center;
+}
+.fa-2x {
+  color: salmon;
+  transition: all .2s ease-out;
+}
+.fa-2x:hover {
+  transform: scale(1.4);
+}
+a:hover {
+  color: darkred;
+}
+@media screen and (max-width: 767px) {
+ .navbar {
+  line-height:.8rem;
+  opacity: .8;
+}
+.nav-link {
+  color: black!important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-left:0rem!important;
+  
+}
+  
+.navbar-toggler {
+    color: white!important;
+    background-color: salmon;
+  }
+.descr {
+    font-size: 4rem;
+  }
+
+  .descrTxT {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
+  #flicky {
+   height: 200px;
+  width: 200px;
+  }
+  #where {
+    height: 200px;
+    width: 200px;
+  }
+  .mcntc {
+    text-align: center;
+  }
+  .cntc {
+    font-size: 4rem;
+  }
+  .cntr {
+    text-align: left;
+  }
+  .cntr h6 {
+    font-weight: 600;
+  }
+}
